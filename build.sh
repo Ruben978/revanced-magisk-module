@@ -4,7 +4,7 @@ set -e
 
 source utils.sh
 
-YT_PATCHER_ARGS="-e microg-support -e swipe-controls"
+YT_PATCHER_ARGS="-e microg-support -e hide-watermark -e disable-create-button -e hide-shorts-button -e hide-autoplay-button -e hide-cast-button -e hdr-auto-brightness -e swipe-controls -e amoled -e hide-infocard-suggestions "
 MUSIC_PATCHER_ARGS="-e microg-support"
 
 BUILD_YT=false
